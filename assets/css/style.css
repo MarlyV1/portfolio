@@ -118,5 +118,9 @@ section {
     background-position: center;
     color: white;
     border-top: 6px ridge white;
+}
 
+.float-border {
+    float: inline-start;
+    border-right: 6px ridge white;
 }
