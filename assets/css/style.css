@@ -66,3 +66,19 @@ nav a {
 nav a:hover {
     background-color: var(--light-green);
 }
+
+main {
+    display: flex;
+    
+}
+
+/* Styling for the aside section */
+aside {
+    flex: 35%;
+    flex-wrap: wrap;
+    padding: 5px;
+    background-color: var(--transparent-dg);
+    text-align: center;
+    border: 8px ridge white;
+    color: white;
+}
