@@ -82,3 +82,18 @@ aside {
     border: 8px ridge white;
     color: white;
 }
+
+/* Changed avatar image size and added a border */
+img {
+    width: 40%;
+    border: 7px ridge var(--dark-green);
+}
+
+/* Stlying the works section */
+section {
+    flex: 55%;
+    background-color: rgba(255, 255, 255);
+    border-top: 8px ridge white;
+    border-bottom: 8px ridge white;
+    border-right: 8px ridge white;
+}
