@@ -112,10 +112,10 @@ section {
 
 .other-projects {
     display: flex;
-    align-items: flex-end;
+    /* align-items: flex-end; */
     width: 50%;
     height: 22.32%;
-    /* align-items: center; */
+    align-items: center;
     background-image: url("/assets/images/projects-bg.jpg");
     background-size: cover;
     background-position: center;
@@ -146,4 +146,10 @@ div a {
 div a:hover {
     color: var(--dark-green);
     background-color: white;
+}
+
+footer {
+    background-color: var(--dark-green);
+    color: white;
+    padding: 25px;
 }
