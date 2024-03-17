@@ -7,7 +7,7 @@
     --light-green: rgb(56, 84, 45);
     --dark-green: rgb(40, 61, 45);
     --transparent-dg: rgb(40, 61, 45, 0.6);
-    --transparent-white: rgba(255, 255, 255, 0.384);
+    --transparent-white: rgba(255, 255, 255, 0.332);
 }
 
 /* Sets page height for the header backgroud image */
@@ -114,7 +114,7 @@ section {
     display: flex;
     /* align-items: flex-end; */
     width: 50%;
-    height: 22.32%;
+    height: 21.21%;
     align-items: center;
     background-image: url("/assets/images/projects-bg.jpg");
     background-size: cover;
@@ -148,8 +148,34 @@ div a:hover {
     background-color: white;
 }
 
+/* Styling for footer */
 footer {
     background-color: var(--dark-green);
     color: white;
     padding: 25px;
+}
+
+
+/* Media Queries added for responsiveness */
+@media screen and (max-width: 768px) {
+    .header-image {
+        height: 78%;
+    }
+
+    main, nav {
+        flex-direction: column;
+    }
+    
+    section {
+        border-left: 8px ridge white;
+        border-top: none;
+    }
+
+    .project1-sf {
+        height: 9em;
+    }
+
+    .other-projects {
+        height: 6em;
+    }
 }
