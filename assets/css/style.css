@@ -46,3 +46,23 @@ header {
     align-items: center;
     font-size: 30px;
 }
+
+/* Styling for the nav bar */
+nav {
+    display: flex;
+    justify-content: right;
+    padding-right: 10px;
+    background-color: var(--dark-green);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+nav a:hover {
+    background-color: var(--light-green);
+}
