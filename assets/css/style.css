@@ -16,7 +16,7 @@ body, html {
 }
 
 body {
-    background-color: ;
+    background-color: var(--transparent-dg) ;
 }
 
 /* Background image added to header */
@@ -69,7 +69,7 @@ nav a:hover {
 
 main {
     display: flex;
-    
+    margin: 25px 0;
 }
 
 /* Styling for the aside section */
@@ -92,11 +92,13 @@ img {
 /* Stlying the works section */
 section {
     flex: 55%;
-    background-color: rgba(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.384);
     border-top: 8px ridge white;
     border-bottom: 8px ridge white;
     border-right: 8px ridge white;
 }
+
+/* Styling for the individual projects of the works section */
 .project1-sf {
     display: flex;
     justify-content: center;
@@ -120,7 +122,13 @@ section {
     border-top: 6px ridge white;
 }
 
+/* Float and border added to project 2 and 4 */
 .float-border {
     float: inline-start;
     border-right: 6px ridge white;
+}
+
+h2 {
+    color: white;
+    text-align: center;
 }
