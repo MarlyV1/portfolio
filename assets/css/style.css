@@ -97,3 +97,26 @@ section {
     border-bottom: 8px ridge white;
     border-right: 8px ridge white;
 }
+.project1-sf {
+    display: flex;
+    justify-content: center;
+    height: 40%;
+    align-items: center;
+    background-image: url("/assets/images/project1-bg.png");
+    background-size: cover;
+    border-top: 6px ridge white;    
+}
+
+.other-projects {
+    display: flex;
+    align-items: flex-end;
+    width: 50%;
+    height: 22.32%;
+    /* align-items: center; */
+    background-image: url("/assets/images/projects-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border-top: 6px ridge white;
+
+}
