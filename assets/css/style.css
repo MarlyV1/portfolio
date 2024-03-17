@@ -2,6 +2,13 @@
     box-sizing: border-box;
 }
 
+:root {
+    --light-green: rgb(56, 84, 45);
+    --dark-green: rgb(40, 61, 45);
+    --transparent-dg: rgb(40, 61, 45, 0.6);
+}
+
+
 body, html {
     height: 100%;
     margin: 0;
@@ -11,10 +18,22 @@ body {
     background-color: ;
 }
 
+/* Background image added to header */
 .header-image {
     background-image: url("/assets/images/background.JPG");
     height: 90%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.text-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--transparent-dg);
+    color: white;
+    padding: 25px;
+    border: 8px ridge var(--dark-green);
+
 }
