@@ -114,7 +114,7 @@ section {
     display: flex;
     /* align-items: flex-end; */
     width: 50%;
-    height: 21.21%;
+    height: 23.62%;
     align-items: center;
     background-image: url("/assets/images/projects-bg.jpg");
     background-size: cover;
@@ -157,6 +157,59 @@ footer {
 
 
 /* Media Queries added for responsiveness */
+
+@media screen and (max-width: 1449px) {
+    .other-projects {
+        height: 23.86%;
+    }
+}
+@media screen and (max-width: 1415px) {
+    .other-projects {
+        height: 23.81%;
+    }
+}
+
+@media screen and (max-width: 1365px) {
+    .other-projects {
+        height: 23.7%;
+    }
+}
+
+@media screen and (max-width: 1328px) {
+    .other-projects {
+        height: 23.61%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .other-projects {
+        height: 23.5%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .other-projects {
+        height: 23.72%;
+    }
+}
+@media screen and (max-width: 936px) {
+    .other-projects {
+        height: 23.58%;
+    }
+}
+
+@media screen and (max-width: 858px) {
+    .other-projects {
+        height: 23.81%;
+    }
+}
+@media screen and (max-width: 808px) {
+    .other-projects {
+        height: 23.9%;
+    }
+}
+
+
 @media screen and (max-width: 768px) {
     .header-image {
         height: 78%;
