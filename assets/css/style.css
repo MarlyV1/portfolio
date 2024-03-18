@@ -150,11 +150,23 @@ div a:hover {
 
 /* Styling for footer */
 footer {
+    display: flex;
+    justify-content: space-evenly;
     background-color: var(--dark-green);
     color: white;
     padding: 25px;
 }
 
+/* Creates link to GitHub */
+footer a {
+    text-decoration: none;
+    color: white;
+    padding-top: 24px;
+    font-size: medium;
+    font-weight: bold;
+    /* align-items: flex-end;
+    text-align: center; */
+}
 
 /* Media Queries added for responsiveness */
 
