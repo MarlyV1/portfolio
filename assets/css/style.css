@@ -68,6 +68,11 @@ nav a:hover {
     background-color: var(--light-green);
 }
 
+nav a:active {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.462) inset;
+
+}
+
 main {
     display: flex;
     margin: 25px 0;
@@ -153,14 +158,14 @@ footer {
     display: flex;
     justify-content: space-evenly;
     background-color: var(--dark-green);
-    color: white;
-    padding: 25px;
+    color: rgba(255, 255, 255, 0.832);
+    padding: 15px;
 }
 
 /* Creates link to GitHub */
 footer a {
     text-decoration: none;
-    color: white;
+    color: rgba(255, 255, 255, 0.832);
     padding-top: 24px;
     font-size: medium;
     font-weight: bold;
