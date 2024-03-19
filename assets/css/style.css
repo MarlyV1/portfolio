@@ -22,7 +22,7 @@ body {
 
 /* Background image added to header */
 .header-image {
-    background-image: url("/assets/images/background.JPG");
+    background-image: url("./assets/images/background.JPG");
     height: 90%;
     background-position: center;
     background-repeat: no-repeat;
@@ -110,7 +110,7 @@ section {
     justify-content: center;
     height: 40%;
     align-items: center;
-    background-image: url("/assets/images/project1-bg.png");
+    background-image: url("./assets/images/project1-bg.png");
     background-size: cover;
     border-top: 6px ridge white;    
 }
@@ -121,7 +121,7 @@ section {
     width: 50%;
     height: 23.62%;
     align-items: center;
-    background-image: url("/assets/images/projects-bg.jpg");
+    background-image: url("./assets/images/projects-bg.jpg");
     background-size: cover;
     background-position: center;
     color: white;
