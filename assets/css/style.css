@@ -169,8 +169,7 @@ footer a {
     padding-top: 24px;
     font-size: medium;
     font-weight: bold;
-    /* align-items: flex-end;
-    text-align: center; */
+   
 }
 
 /* Media Queries added for responsiveness */
@@ -247,5 +246,9 @@ footer a {
 
     .other-projects {
         height: 6em;
+    }
+
+    footer {
+        flex-direction: column;
     }
 }
